@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {};
+const withSerwist = require("@serwist/next").default({
+  swSrc: "app/sw.ts",
+  swDest: "public/sw.js",
+});
 
-module.exports = nextConfig
+module.exports = withSerwist({
+  nextConfig,
+});
+
+module.exports = nextConfig;
