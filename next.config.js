@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+};
 const withSerwist = require("@serwist/next").default({
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
 });
 
-module.exports = withSerwist({
-  nextConfig,
-});
-
-module.exports = nextConfig;
+module.exports = withSerwist(nextConfig);
