@@ -1,3 +1,82 @@
+import { ModeToggle } from "@/components/molecules/mode-toggle";
+import Image from "next/image";
+
 export default function Home() {
-  return <main>Digikarya Solid Solid Solid</main>;
+  return (
+    <main>
+      <ModeToggle />
+      <div className="columns-2 md:columns-3 lg:columns-4 mx-auto max-w-7xl space-y-4">
+        <Image
+          src="/images/ghibli1.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli2.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli3.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli4.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli5.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli6.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli7.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli8.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli9.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+        <Image
+          src="/images/ghibli10.jpg"
+          width={500}
+          height={500}
+          alt={"Ghibli"}
+          className="rounded-lg"
+        />
+      </div>
+    </main>
+  );
 }
