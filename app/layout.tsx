@@ -1,13 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/organisms/navbar";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 const APP_NAME = "DigiKarya";
-const APP_DEFAULT_TITLE = "My Awesome DigiKarya";
+const APP_DEFAULT_TITLE = "DigiKarya";
 const APP_TITLE_TEMPLATE = "%s - DigiKarya";
 const APP_DESCRIPTION = "Best DigiKarya in the world!";
 
@@ -66,7 +65,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* <Navbar /> */}
           {children}
         </ThemeProvider>
       </body>

@@ -1,10 +1,8 @@
-import { ModeToggle } from "@/components/molecules/mode-toggle";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <ModeToggle />
       <div className="columns-2 md:columns-3 lg:columns-4 mx-auto max-w-7xl space-y-4">
         <Image
           src="/images/ghibli1.jpg"
