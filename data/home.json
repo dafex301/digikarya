@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Jokowi",
+    "description": "Jokowi adalah presiden Indonesia ke-7",
+    "image": "/images/ghibli1.jpg",
+    "author": "Mega-chan",
+    "author_image": "/images/luffy.webp",
+    "status": "OPEN"
+  },
+  {
+    "id": 2,
+    "title": "Prabowo",
+    "description": "Prabowo adalah calon presiden Indonesia ke-7",
+    "image": "/images/ghibli2.jpg",
+    "author": "Prabsky",
+    "author_image": "/images/luffy.webp",
+    "status": "WAITLIST"
+  },
+  {
+    "id": 3,
+    "title": "Anies",
+    "description": "Anies adalah gubernur DKI Jakarta ke-7",
+    "image": "/images/ghibli3.jpg",
+    "author": "Prabsky",
+    "author_image": "/images/luffy.webp",
+    "status": "WAITLIST"
+  },
+  {
+    "id": 4,
+    "title": "Sandi",
+    "description": "Sandi adalah wakil gubernur DKI Jakarta ke-7",
+    "image": "/images/ghibli4.jpg",
+    "author": "Prabsky",
+    "author_image": "/images/luffy.webp",
+    "status": "WAITLIST"
+  },
+  {
+    "id": 5,
+    "title": "Ahok",
+    "description": "Ahok adalah gubernur DKI Jakarta ke-6",
+    "image": "/images/ghibli5.jpg",
+    "author": "Prabsky",
+    "author_image": "/images/luffy.webp",
+    "status": "WAITLIST"
+  },
+  {
+    "id": 6,
+    "title": "Ganjar",
+    "description": "Ganjar adalah gubernur Jawa Tengah ke-7",
+    "image": "/images/ghibli6.jpg",
+    "author": "Mega-chan",
+    "author_image": "/images/luffy.webp",
+    "status": "OPEN"
+  },
+  {
+    "id": 7,
+    "title": "Ridwan",
+    "description": "Ridwan adalah gubernur Jawa Barat ke-7",
+    "image": "/images/ghibli7.jpg",
+    "author": "Mega-chan",
+    "author_image": "/images/luffy.webp",
+    "status": "OPEN"
+  },
+  {
+    "id": 8,
+    "title": "Risma",
+    "description": "Risma adalah wali kota Surabaya ke-7",
+    "image": "/images/ghibli8.jpg",
+    "author": "Mega-chan",
+    "author_image": "/images/luffy.webp",
+    "status": "OPEN"
+  },
+  {
+    "id": 9,
+    "title": "Mahfud",
+    "description": "Mahfud adalah calon wakil presiden Indonesia ke-7",
+    "image": "/images/ghibli9.jpg",
+    "author": "Mega-chan",
+    "author_image": "/images/luffy.webp",
+    "status": "OPEN"
+  },
+  {
+    "id": 10,
+    "title": "Imin",
+    "description": "Imin adalah calon wakil presiden Indonesia ke-7",
+    "image": "/images/ghibli10.jpg",
+    "author": "Mega-chan",
+    "author_image": "/images/luffy.webp",
+    "status": "OPEN"
+  }
+]
