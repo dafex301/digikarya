@@ -10,7 +10,10 @@ export default function Navbar() {
       >
         DigiKarya
       </Link>
-      <ModeToggle />
+      <div className="flex gap-5 items-center">
+        <Link href="/auth/login">Login</Link>
+        <ModeToggle />
+      </div>
     </nav>
   );
 }
