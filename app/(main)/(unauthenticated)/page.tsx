@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "@/data/home.json";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,25 +21,32 @@ export default function Home() {
           </h3>
           <div className="inline-block">
             <div className="flex flex-col gap-1 ">
-              <Image
-                src={item.image}
-                width={500}
-                height={500}
-                alt={item.description}
-                className="rounded-lg"
-              />
-
-              <h2 className="font-semibold text-lg">{item.title}</h2>
-              <div className="flex gap-2">
+              <Link href={`/art/${item.id}`}>
                 <Image
-                  src={item.author_image}
-                  width={250}
-                  height={250}
+                  src={item.image}
+                  width={500}
+                  height={500}
                   alt={item.description}
-                  className="rounded-full h-5 w-5"
+                  className="rounded-lg"
                 />
-                <p className="text-sm font-light">{item.author}</p>
-              </div>
+
+                <h2 className="font-semibold text-lg">{item.title}</h2>
+              </Link>
+
+              <Link href={`/artist/${item.artist_username}`}>
+                <div className="flex gap-2">
+                  <Image
+                    src={item.artist_image}
+                    width={250}
+                    height={250}
+                    alt={item.description}
+                    className="rounded-full h-5 w-5"
+                  />
+                  <p className="text-sm font-light opacity-80 hover:opacity-100">
+                    {item.artist}
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

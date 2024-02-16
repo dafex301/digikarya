@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "title": "Jokowi",
+  "price": 500000,
+  "description": "Jokowi adalah presiden Indonesia ke-7",
+  "rating": 4.5,
+  "number_of_ratings": 100,
+  "terms_and_conditions": "GENERAL I reserve the right to use, share, publish, livestream and record commission processes on my social media unless discussed otherwise. I reserve the right to decline any commission work should I deem it not be completed to my personal highest standard. I retain copyright of commissioned artwork unless discussed prior.",
+  "image": "/images/ghibli1.jpg",
+  "artist": "Mega-chan",
+  "artist_id": 1,
+  "artist_username": "mega-chan",
+  "artist_image": "/images/luffy.webp",
+  "status": "OPEN"
+}

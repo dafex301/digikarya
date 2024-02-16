@@ -4,8 +4,9 @@
     "title": "Jokowi",
     "description": "Jokowi adalah presiden Indonesia ke-7",
     "image": "/images/ghibli1.jpg",
-    "author": "Mega-chan",
-    "author_image": "/images/luffy.webp",
+    "artist": "Mega-chan",
+    "artist_username": "megachan",
+    "artist_image": "/images/luffy.webp",
     "status": "OPEN"
   },
   {
@@ -13,8 +14,9 @@
     "title": "Prabowo",
     "description": "Prabowo adalah calon presiden Indonesia ke-7",
     "image": "/images/ghibli2.jpg",
-    "author": "Prabsky",
-    "author_image": "/images/luffy.webp",
+    "artist": "Prabsky",
+    "artist_username": "prabsky",
+    "artist_image": "/images/luffy.webp",
     "status": "WAITLIST"
   },
   {
@@ -22,8 +24,9 @@
     "title": "Anies",
     "description": "Anies adalah gubernur DKI Jakarta ke-7",
     "image": "/images/ghibli3.jpg",
-    "author": "Prabsky",
-    "author_image": "/images/luffy.webp",
+    "artist": "Prabsky",
+    "artist_username": "prabsky",
+    "artist_image": "/images/luffy.webp",
     "status": "WAITLIST"
   },
   {
@@ -31,8 +34,9 @@
     "title": "Sandi",
     "description": "Sandi adalah wakil gubernur DKI Jakarta ke-7",
     "image": "/images/ghibli4.jpg",
-    "author": "Prabsky",
-    "author_image": "/images/luffy.webp",
+    "artist": "Prabsky",
+    "artist_username": "prabsky",
+    "artist_image": "/images/luffy.webp",
     "status": "WAITLIST"
   },
   {
@@ -40,8 +44,9 @@
     "title": "Ahok",
     "description": "Ahok adalah gubernur DKI Jakarta ke-6",
     "image": "/images/ghibli5.jpg",
-    "author": "Prabsky",
-    "author_image": "/images/luffy.webp",
+    "artist": "Prabsky",
+    "artist_username": "prabsky",
+    "artist_image": "/images/luffy.webp",
     "status": "WAITLIST"
   },
   {
@@ -49,8 +54,9 @@
     "title": "Ganjar",
     "description": "Ganjar adalah gubernur Jawa Tengah ke-7",
     "image": "/images/ghibli6.jpg",
-    "author": "Mega-chan",
-    "author_image": "/images/luffy.webp",
+    "artist": "Mega-chan",
+    "artist_username": "mega-chan",
+    "artist_image": "/images/luffy.webp",
     "status": "OPEN"
   },
   {
@@ -58,8 +64,9 @@
     "title": "Ridwan",
     "description": "Ridwan adalah gubernur Jawa Barat ke-7",
     "image": "/images/ghibli7.jpg",
-    "author": "Mega-chan",
-    "author_image": "/images/luffy.webp",
+    "artist": "Mega-chan",
+    "artist_username": "mega-chan",
+    "artist_image": "/images/luffy.webp",
     "status": "OPEN"
   },
   {
@@ -67,8 +74,9 @@
     "title": "Risma",
     "description": "Risma adalah wali kota Surabaya ke-7",
     "image": "/images/ghibli8.jpg",
-    "author": "Mega-chan",
-    "author_image": "/images/luffy.webp",
+    "artist": "Mega-chan",
+    "artist_username": "mega-chan",
+    "artist_image": "/images/luffy.webp",
     "status": "OPEN"
   },
   {
@@ -76,8 +84,9 @@
     "title": "Mahfud",
     "description": "Mahfud adalah calon wakil presiden Indonesia ke-7",
     "image": "/images/ghibli9.jpg",
-    "author": "Mega-chan",
-    "author_image": "/images/luffy.webp",
+    "artist": "Mega-chan",
+    "artist_username": "mega-chan",
+    "artist_image": "/images/luffy.webp",
     "status": "OPEN"
   },
   {
@@ -85,8 +94,9 @@
     "title": "Imin",
     "description": "Imin adalah calon wakil presiden Indonesia ke-7",
     "image": "/images/ghibli10.jpg",
-    "author": "Mega-chan",
-    "author_image": "/images/luffy.webp",
+    "artist": "Mega-chan",
+    "artist_username": "mega-chan",
+    "artist_image": "/images/luffy.webp",
     "status": "OPEN"
   }
 ]
