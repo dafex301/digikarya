@@ -7,7 +7,7 @@ export default function Login() {
   return (
     <main className="grid grid-cols-12 w-full h-full">
       <div className="col-span-6"></div>
-      <div className="bg-white ms-64 py-12 px-10 col-span-6 rounded-xl flex flex-col gap-5 my-12 xl:mx-40">
+      <div className="bg-white ms-64 py-12 px-10 col-span-6 rounded-xl flex flex-col gap-5 my-10 2xl:me-24">
         <div className="flex flex-col gap-1">
           <h1 className="text-gray-900 text-2xl font-semibold">Sign in</h1>
           <div>

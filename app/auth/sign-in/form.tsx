@@ -16,15 +16,21 @@ import { Input } from "@/components/ui/input";
 import Notification from "@/components/molecules/notification";
 import { loginSchema } from "./schema";
 import { useState, useTransition } from "react";
-import { login } from "./action";
 import { signIn } from "next-auth/react";
+import { useSearchParams } from "next/navigation";
 
 export function LoginForm() {
   const [isPending, startTransition] = useTransition();
+  const searchParams = useSearchParams();
+  const errorParams = searchParams.get("error");
   const [notification, setNotification] = useState<{
     success: boolean;
     message: string;
-  } | null>(null);
+  } | null>(
+    errorParams
+      ? { success: false, message: "Invalid email or password" }
+      : null
+  );
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof loginSchema>>({
@@ -41,9 +47,7 @@ export function LoginForm() {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     startTransition(() => {
-      signIn("credentials", { email, password }).then((result) => {
-        console.log("result", result);
-      });
+      signIn("credentials", { email, password, redirect: true });
     });
   }
 
