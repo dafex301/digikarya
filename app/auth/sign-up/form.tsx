@@ -63,7 +63,7 @@ export function LoginForm() {
                   type="email"
                   placeholder="your@email.com"
                   {...field}
-                  className="text-gray-800 dark:bg-white border-b-2 border-t-0 border-x-0 rounded-none border-gray-200 px-1"
+                  className="text-gray-800 focus:border-gray-300 dark:bg-white border-b-2 border-t-0 border-x-0 rounded-none border-gray-200 px-1"
                 />
               </FormControl>
               <FormMessage />
@@ -83,7 +83,7 @@ export function LoginForm() {
                   disabled={isPending}
                   type="password"
                   placeholder="*****"
-                  className="text-gray-800 dark:bg-white border-b-2 border-t-0 border-x-0 rounded-none border-gray-200 px-1"
+                  className="text-gray-800 focus:border-gray-300 dark:bg-white border-b-2 border-t-0 border-x-0 rounded-none border-gray-200 px-1"
                   {...field}
                 />
               </FormControl>
@@ -95,6 +95,7 @@ export function LoginForm() {
           <Notification
             message={notification.message}
             type={notification.success ? "success" : "error"}
+            darkMode={false}
           />
         )}
         <div className="flex justify-end">

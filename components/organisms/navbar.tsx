@@ -11,7 +11,12 @@ export default function Navbar() {
         DigiKarya
       </Link>
       <div className="flex gap-5 items-center">
-        <Link href="/auth/login">Login</Link>
+        <Link
+          className="bg-main hover:bg-opacity-90 text-white px-4  py-2 rounded-full"
+          href="/auth/sign-in"
+        >
+          Sign in
+        </Link>
         <ModeToggle />
       </div>
     </nav>

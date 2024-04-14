@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 import { getServerSession } from "next-auth";
 import { authConfig } from "./api/auth/[[...nextauth]]/authConfig";
 import { AuthProvider } from "@/providers/auth-provider";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -63,7 +64,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <AuthProvider session={session}>
-        <body className={inter.className}>
+        <body className={cn(inter.className, "")}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
