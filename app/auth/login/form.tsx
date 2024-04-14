@@ -54,13 +54,16 @@ export function LoginForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel className="dark:text-gray-500 text-xs">
+                Email Address
+              </FormLabel>
               <FormControl>
                 <Input
                   disabled={isPending}
                   type="email"
                   placeholder="your@email.com"
                   {...field}
+                  className="text-gray-800 dark:bg-white border-b-2 border-t-0 border-x-0 rounded-none border-gray-200 px-1"
                 />
               </FormControl>
               <FormMessage />
@@ -72,12 +75,15 @@ export function LoginForm() {
           name="password"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Password</FormLabel>
+              <FormLabel className="dark:text-gray-500 text-xs">
+                Password
+              </FormLabel>
               <FormControl>
                 <Input
                   disabled={isPending}
                   type="password"
                   placeholder="*****"
+                  className="text-gray-800 dark:bg-white border-b-2 border-t-0 border-x-0 rounded-none border-gray-200 px-1"
                   {...field}
                 />
               </FormControl>
@@ -91,9 +97,15 @@ export function LoginForm() {
             type={notification.success ? "success" : "error"}
           />
         )}
-        <Button disabled={isPending} type="submit">
-          Submit
-        </Button>
+        <div className="flex justify-end">
+          <Button
+            disabled={isPending}
+            type="submit"
+            className="bg-blue-900 hover:bg-blue-800 text-white rounded-full"
+          >
+            Continue
+          </Button>
+        </div>
       </form>
     </Form>
   );
