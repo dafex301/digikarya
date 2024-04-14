@@ -7,7 +7,7 @@ export default function Login() {
   return (
     <main className="grid grid-cols-12 w-full h-full">
       <div className="col-span-6"></div>
-      <div className="bg-white ms-64 py-12 px-10 col-span-6 rounded-xl flex flex-col gap-5 my-16 mx-40">
+      <div className="bg-white ms-64 py-12 px-10 col-span-6 rounded-xl flex flex-col gap-5 my-12 xl:mx-40">
         <div className="flex flex-col gap-1">
           <h1 className="text-gray-900 text-2xl font-semibold">
             Create an account
@@ -51,12 +51,14 @@ export default function Login() {
             />
           </button>
         </div>
-        <Link
-          href="/"
-          className="mt-48 text-gray-500 text-xs flex items-center hover:text-gray-700"
-        >
-          <ArrowLeft height={14} /> <p>Back to Homepage</p>
-        </Link>
+        <div className="h-full flex items-end">
+          <Link
+            href="/"
+            className=" text-gray-500 text-xs flex items-center hover:text-gray-700"
+          >
+            <ArrowLeft height={14} /> <p>Back to Homepage</p>
+          </Link>
+        </div>
       </div>
     </main>
   );

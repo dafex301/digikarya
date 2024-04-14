@@ -17,6 +17,7 @@ import Notification from "@/components/molecules/notification";
 import { loginSchema } from "./schema";
 import { useState, useTransition } from "react";
 import { login } from "./action";
+import { signIn } from "next-auth/react";
 
 export function LoginForm() {
   const [isPending, startTransition] = useTransition();
@@ -35,13 +36,13 @@ export function LoginForm() {
   });
 
   // 2. Define a submit handler.
-  function onSubmit(values: z.infer<typeof loginSchema>) {
+  function onSubmit({ email, password }: z.infer<typeof loginSchema>) {
     setNotification(null);
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     startTransition(() => {
-      login(values).then((result) => {
-        setNotification(result);
+      signIn("credentials", { email, password }).then((result) => {
+        console.log("result", result);
       });
     });
   }
